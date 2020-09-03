@@ -1,0 +1,52 @@
+{
+  "name": "pf-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cra-template": "1.0.3",
+    "history": "^5.0.0",
+    "npm-react-component-starter": "^1.0.0",
+    "react": "^16.13.1",
+    "react-alice-carousel": "^1.19.3",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.1",
+    "react-id-swiper": "^4.0.0",
+    "react-images-upload": "^1.2.8",
+    "react-input-switch": "^2.2.2",
+    "react-paginate": "^6.3.2",
+    "react-redux": "^7.0.3",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.4.1",
+    "react-shopping-cart": "^1.9.4",
+    "react-smart-slider": "^0.1.2",
+    "react-stl-obj-viewer": "^1.2.0",
+    "react-ui-cards": "^2.0.0",
+    "react-use-cart": "^1.9.0",
+    "redux": "^4.0.5",
+    "styled-components": "^5.1.1",
+    "swiper": "^6.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
