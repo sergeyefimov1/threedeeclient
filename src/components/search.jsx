@@ -11,7 +11,7 @@ function CartCounter(props) {
         <a href="javascript:;" onClick={() => props.toggleCart()}>
         <div className="notification"> 
         <div className="cart"></div>
-        <span className="badge">{totalItems}</span> 
+        <span className="badge"><label className="badge-lbl">{totalItems}</label></span> 
         </div>
         </a>
     )
@@ -35,7 +35,8 @@ function Cart(props) {
         <div className="cart-container">
       <div className="container">
           <a href="javascript:;" className="close" onClick={() => props.toggleCart()}></a>
-        <h3>Your Cart </h3>
+        <div className="notification"><div className="cart2"></div></div>
+        <h3> Your Cart  </h3>
    
         <ul>
           {items.map((item) => (
